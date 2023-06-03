@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Portfolio Website</title>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+         <link rel="stylesheet" href="../Assets/CSS/Portfolio.css">
+         <link rel="stylesheet" href="https://fontawesome.com/icons/user?f=classic&s=solid">
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/21a93b28c4.js" crossorigin="anonymous"></script>
+        <script src="../Assets/JS/Portfolio.js"></script>
+        <header>
+            <nav>
+                    <h1>Raneem Bakkar</h1>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Contact.html">Contact Me</a></li>
+                        <li><a href="Resume.html">My Resume</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class=hospital>
+                <div class="logo">
+                    <div class="back">
+                        <img src="../Assets/Images/logoHospital.jpg">
+                    </div>
+                    <div class="inner">
+                        <img id="hospital" onclick="True('hospital')" src="../Assets/Images/hospital.jpg">
+                    </div>
+                </div>
+                <div class="discription">
+                    <h2>Hospital project</h2> <br>
+                    <p>website to provide health and medical care services for cancer <br>
+                        patients,such as conducting examinations for early diagnosis and <br>
+                        providing appropriate treatment and chat each patient with his <br>
+                        doctor. created in C# ASP.NET MVC 2022 with database SQL 
+                        server.</p>
+                </div>
+            </section>
+            
+            <section class=tourism>
+                <div class="logo">
+                    <div class="back">
+                        <img src="../Assets/Images/logoTourism.jpg">
+                    </div>
+                    <div class="inner">
+                        <img id="tourism" onclick="True('tourism')" src="../Assets/Images/saudi.jpg">
+                    </div>
+                </div>
+                <div class="discription">
+                    <h2>Tourism project</h2> <br>
+                    <p>A tourism website that targets the most famous landmarks and <br>
+                         tourist destinations in the Kingdom of Saudi Arabia.<br>
+                        The aim of the site is to help tourists to get the best experience in this visit.</p>
+                        
+                </div>
+            </section>
+            <section class=training>
+                <div class="logo">
+                    <div class="back">
+                        <img src="../Assets/Images/logoTraining.jpg">
+                    </div>
+                    <div class="inner">
+                        <img id="training" onclick="True('training')" src="../Assets/Images/training.jpg">
+                    </div>
+                </div>
+                <div class="discription">
+                    <h2>Training</h2> <br>
+                    <p>During my university career, I prepared many summaries of <br>
+                        some subjects: Data Structure, Object Oriented Programming, and Oracle. <br>
+                        And I got many skills by giving lectures to these subjects. </p>
+                        
+                </div>
+                <i id="plus1" class="fa-sharp fa-light fa-plus fa-2xl" onclick="Plus('plus1')"></i>
+                <div class="cards">
+                    <div class="card" id="structure">
+                        <img class="image" id="image1">
+                        <p id="before"></p>
+                    </div>
+                    <div class="card" id="oracle">
+                        <img class="image" id="image2">
+                        <p id="before2"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="copy">
+                    &copy; 2023 Raneem Bakkar
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

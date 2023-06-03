@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Carme', sans-serif;
+    color: #16317a;
+}
+header{
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(129, 140, 233);
+    width: 100%;
+    height: 50px;
+    display:flex;
+    position:fixed;
+    z-index: 3;
+
+}
+header ul li{
+    display: inline-block;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+}
+header ul li a:hover{
+    font-size: x-large;
+    color: white;
+    padding: 20px;
+}
+
+main{
+    padding:10%;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.hospital{
+    display: flex;
+    width: 100%;
+}
+.hospital .inner img{
+    padding-top: 3.5%;
+    width: 20%;
+    height: 30%;
+}
+.hospital .back img{
+    height: 50%;
+}
+.hospital .logo{
+    display: flex;
+}
+.hospital .logo .back{
+    position: relative;
+}
+.hospital .logo .inner{
+    position: absolute;
+    left: 17%;
+}
+.hospital .discription{
+  padding: 3%;
+  text-align: center;
+}
+.discription p{
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.training{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.training .inner img{
+    padding-top: 1.5%;
+    width: 100%;
+    height: 30%;
+}
+.training .back img{
+    height: 21%;
+}
+.training .logo{
+    display: flex;
+    width: 40%;
+}
+.training .logo .back{
+    position: relative;
+    height: 330px;
+}
+.training .logo .inner{
+    position: absolute;
+    left: 15%;
+    height: 330px;
+}
+.training .discription{
+    text-align: center
+}
+
+.tourism{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tourism .inner img{
+    padding-top: 15%;
+    width: 40%;
+    height: 40%;
+}
+.tourism .back img{
+    height: 50%;
+}
+.tourism .logo{
+    display: flex;
+    width: 40%;
+}
+.tourism .logo .back{
+    position: relative;
+}
+.tourism .logo .inner{
+    position: absolute;
+    left: 17%;
+}
+.tourism .discription{
+    text-align: center
+}
+.image{
+    width: 90%;
+    height: 70%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+.card{
+    margin-left: 50px;
+}
+
+.back{
+    z-index: 1;
+}
+.inner{
+    z-index: 2;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(129, 140, 233);
+}

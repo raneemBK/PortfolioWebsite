@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Portfolio Website</title>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+         <link rel="stylesheet" href="../Assets/CSS/Contact.css">
+         <link rel="stylesheet" href="https://fontawesome.com/icons/user?f=classic&s=solid">
+         <style>
+            .error{
+                background-color: red !important;
+            }
+         </style>
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/21a93b28c4.js" crossorigin="anonymous"></script>
+        <script src="../Assets/JS/Contact.js"></script>
+        <header>
+            <nav>
+                    <h1>Raneem Bakkar</h1>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Contact.html">Contact Me</a></li>
+                        <li><a href="Resume.html">My Resume</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="description">
+                    <h2>Let’s connect!</h2> <br>
+                    <p>I’d love to hear from you; whether you want to<br> learn more about my services,
+                         want to<br> collaborate on a project,<br> or simply just want to say hello.</p>
+                </div>
+                <div class="form">
+                    <form id="form">
+                        <label>your name:</label><br>
+                        <input type="text" class="myInput" id="name" onchange="change('name')" ><br>
+                        <label>your Email:</label><br>
+                        <input type="email" class="myInput" id="email" onchange="change('email')" ><br>
+                        <label>your message:</label><br>
+                        <textarea class="myInput" rows="6" id="message" onchange="change('message')" ></textarea> <br><br>
+                        <button id="send" onclick="Send(this)">Send</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="copy">
+                    &copy; 2023 Raneem Bakkar
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
